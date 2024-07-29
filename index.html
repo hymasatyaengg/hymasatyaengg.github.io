@@ -70,6 +70,17 @@
             text-decoration: underline;
         }
     </style>
+    <script>
+        // Function to redirect after 5 seconds
+        function redirectAfterDelay() {
+            setTimeout(function() {
+                window.location.href = 'https://www.hymasatya.com'; // Change this to the URL you want to redirect to
+            }, 5000);
+        }
+
+        // Call the function on page load
+        window.onload = redirectAfterDelay;
+    </script>
 </head>
 <body>
     <div class="container">
